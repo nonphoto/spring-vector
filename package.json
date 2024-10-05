@@ -1,0 +1,58 @@
+{
+  "name": "@nonphoto/spring-vector",
+  "version": "0.0.0",
+  "description": "Low-level spring physics toolbox",
+  "type": "module",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "./dist/*",
+    "./src/*"
+  ],
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepare": "pnpm build",
+    "build": "tsup ./src/index.ts --dts --format esm --clean",
+    "release": "semantic-release",
+    "dev": "vinxi dev"
+  },
+  "keywords": [
+    "spring",
+    "physics",
+    "animation"
+  ],
+  "author": "Jonas Luebbers <jonas@jonasluebbers.com> (https://www.jonasluebbers.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@nonphoto/css": "1.0.4",
+    "@solidjs/router": "^0.14.7",
+    "@solidjs/start": "^1.0.8",
+    "semantic-release": "24.1.2",
+    "solid-js": "^1.9.1",
+    "tsup": "8.2.4",
+    "typescript": "5.5.4",
+    "vinxi": "^0.4.3"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "dependencies": {
+    "@nonphoto/spring": "^3.0.0",
+    "@solid-primitives/mouse": "2.0.20",
+    "@solid-primitives/raf": "2.2.0",
+    "@thi.ng/vectors": "7.12.0"
+  }
+}
