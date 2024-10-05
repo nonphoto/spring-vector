@@ -11,12 +11,6 @@ importers:
       '@nonphoto/spring':
         specifier: ^3.0.0
         version: 3.0.1
-      '@solid-primitives/mouse':
-        specifier: 2.0.20
-        version: 2.0.20(solid-js@1.9.1)
-      '@solid-primitives/raf':
-        specifier: 2.2.0
-        version: 2.2.0(solid-js@1.9.1)
       '@thi.ng/vectors':
         specifier: 7.12.0
         version: 7.12.0
@@ -24,6 +18,12 @@ importers:
       '@nonphoto/css':
         specifier: 1.0.4
         version: 1.0.4
+      '@solid-primitives/mouse':
+        specifier: 2.0.20
+        version: 2.0.20(solid-js@1.9.1)
+      '@solid-primitives/raf':
+        specifier: 2.2.0
+        version: 2.2.0(solid-js@1.9.1)
       '@solidjs/router':
         specifier: ^0.14.7
         version: 0.14.7(solid-js@1.9.1)
