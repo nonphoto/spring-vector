@@ -37,6 +37,8 @@
   "license": "MIT",
   "devDependencies": {
     "@nonphoto/css": "1.0.4",
+    "@solid-primitives/mouse": "2.0.20",
+    "@solid-primitives/raf": "2.2.0",
     "@solidjs/router": "^0.14.7",
     "@solidjs/start": "^1.0.8",
     "semantic-release": "24.1.2",
@@ -51,8 +53,6 @@
   },
   "dependencies": {
     "@nonphoto/spring": "^3.0.0",
-    "@solid-primitives/mouse": "2.0.20",
-    "@solid-primitives/raf": "2.2.0",
     "@thi.ng/vectors": "7.12.0"
   }
 }
