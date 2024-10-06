@@ -1,4 +1,3 @@
-import { duration } from "@nonphoto/spring";
 import {
   amplitudeFromValues,
   defaultCriticality,
@@ -6,10 +5,11 @@ import {
   defaultPosition,
   defaultTarget,
   defaultVelocity,
+  duration,
   phaseFromValues,
   positionAt,
   velocityAt,
-} from "@nonphoto/spring/src/index.js";
+} from "@nonphoto/spring";
 import {
   defHofOp,
   MultiVecOpImpl,
