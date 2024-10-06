@@ -1,3 +1,4 @@
+import { duration } from "@nonphoto/spring";
 import {
   amplitudeFromValues,
   defaultCriticality,
@@ -256,3 +257,8 @@ export const [velocityAtV, velocityAt2, velocityAt3, velocityAt4] = defHofOp<
   MultiVecOpImpl<VecOpVVVNNVVN>,
   VecOpVVVNNVVN
 >(velocityAt, FN_VVVNNVVN, ARGS_VVVNNVVN);
+
+export const [durationV, duration2, duration3, duration4] = defHofOp<
+  MultiVecOpImpl<VecOpVVVNNVVN>,
+  VecOpVVVNNVVN
+>(duration, FN_VVVNNVVN, ARGS_VVVNNVVN);
