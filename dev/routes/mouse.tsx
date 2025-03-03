@@ -1,16 +1,8 @@
-import {
-  fromValues2,
-  positionAt2,
-  setValues2,
-  velocityAt2,
-} from "@nonphoto/spring-vector/src/spring-vector.js";
-import {
-  dampingRatioToCriticality,
-  halflifeToDamping,
-} from "@nonphoto/spring/src/common.js";
+import { dampingRatioToCriticality, halflifeToDamping } from "@nonphoto/spring";
 import { useMousePosition } from "@solid-primitives/mouse";
 import createRAF from "@solid-primitives/raf";
 import { createEffect, createSignal } from "solid-js";
+import { fromValues2, positionAt2, setValues2, velocityAt2 } from "~/../src";
 
 export default function ExamplesMouseRoute() {
   const mouse = useMousePosition();
