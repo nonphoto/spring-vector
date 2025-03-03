@@ -147,8 +147,8 @@ export function setValues2(
 export function setValues3(
   s: VectorSpring,
   position?: Vec,
-  target?: Vec,
   velocity?: Vec,
+  target?: Vec,
   damping?: number,
   criticality?: number
 ): VectorSpring {
@@ -165,8 +165,8 @@ export function setValues3(
 export function setValues4(
   s: VectorSpring,
   position?: Vec,
-  target?: Vec,
   velocity?: Vec,
+  target?: Vec,
   damping?: number,
   criticality?: number
 ): VectorSpring {
