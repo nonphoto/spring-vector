@@ -45,7 +45,7 @@
     "pnpm": ">=9"
   },
   "dependencies": {
-    "@nonphoto/spring": "^3.0.3",
-    "@thi.ng/vectors": "7.12.23"
+    "@nonphoto/spring": "^3.0.5",
+    "@thi.ng/vectors": "7.12.24"
   }
 }
